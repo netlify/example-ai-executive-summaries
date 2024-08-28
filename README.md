@@ -27,7 +27,7 @@ Deploy your own version of this example site, by clicking the Deploy to Netlify 
 - Create an automated deployment pipeline to watch for changes on your repo
 - Build and deploy your new site
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/examples/&create_from_path=examples/ai-executive-summaries&utm_campaign=dx-examples)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/example-ai-executive-summaries?utm_campaign=dx-examples)
 
 
 ## Install and run the examples locally
@@ -37,18 +37,15 @@ You can clone this entire examples repo to explore this and other examples, and 
 ```shell
 
 # 1. Clone the examples repository to your local development environment
-git clone git@github.com:netlify/examples
+git clone git@github.com:netlify/example-ai-executive-summaries
 
-# 2. Move into the project directory for this example
-cd examples/ai-executive-summaries
-
-# 3. Install the dependencies
+# 2. Install the dependencies
 npm i
 
-# 4. Install the Netlify CLI to let you locally serve your site using Netlify's features
+# 3. Install the Netlify CLI to let you locally serve your site using Netlify's features
 npm i -g netlify-cli
 
-# 5. Serve your site using Netlify Dev to get local serverless functions
+# 4. Serve your site using Netlify Dev to get local serverless functions
 netlify dev
 
 ```
